@@ -1,2 +1,2 @@
-# Kali-Scripts
-Various Kali Linux scripts that I use.
+# Shell Scripts
+Various shell scripts that I developed for my own use.
