@@ -1,5 +1,6 @@
 # OpenVPN Kill Switch & Automatic Restart
 This configuration is used for checking if your connection is being tunneled over OpenVPN. If the script detects the tunnel is down or the DNS and/or PING are not responding, it will establish a new connection. Using the iptables rules below, you can ensure that all traffic is routed through OpenVPN.
+This setup is running on my Ubuntu 14.04 server, but should work on most Linux distributions, especially Debian based.
 ## tl;dr
 This script keeps your OpenVPN connection active and ensures you elimates connection leakage.
 ## Script
